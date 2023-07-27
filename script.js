@@ -3,6 +3,10 @@ const out5 = document.getElementsByClassName('output5')[0];
 const controlsElement5 = document.getElementsByClassName('control5')[0];
 const canvasCtx5 = out5.getContext('2d');
 
+video5.setAttribute('autoplay', '');
+video5.setAttribute('muted', '');
+video5.setAttribute('playsinline', '');
+
 const fpsControl = new FPS();
 
 const spinner = document.querySelector('.loading');
